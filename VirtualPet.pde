@@ -1,5 +1,5 @@
 void setup(){
-  size(400,350);
+  size(300,300);
   background(255,255,255);
 }
 
@@ -17,18 +17,18 @@ fill(0,0,0);
 triangle(150,250,131,212,169,212);
 //mouse ears
 fill(128,128,128);
-circle(240,68,100);
-circle(60,68,100);
+ellipse(240,68,100,100);
+ellipse(60,68,100,100);
 fill(255,192,203);
-circle(240,68,60);
-circle(60,68,60);
+ellipse(240,68,60,60);
+ellipse(60,68,60,60);
 //mouse eyes
 fill(255,255,255);
-circle(180,110,40);
-circle(120,110,40);
+ellipse(180,110,40,40);
+ellipse(120,110,40,40);
 fill(0,0,0);
-circle(180,110,20);
-circle(120,110,20);
+ellipse(180,110,20,20);
+ellipse(120,110,20,20);
 //mouse whiskers
 line(131,212,100,230);
 line(136,220,105,245);
